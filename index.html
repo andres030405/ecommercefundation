@@ -65,6 +65,72 @@
 <!--  La clase callout permite poner ese margen alrededor-->
            <div class="callout">
                <h4>Búsqueda Avanzada</h4>
+               
+               <form>
+                   <div class="row">
+                       <div class="columns">
+                           <label>Por nombre
+                                <input type="text"/>
+                            </label>
+                            <label>Por referencia
+                                <input type="text">
+                            </label>
+                            <p class="help-text">Número único del producto</p>
+                            <label>Por categoria
+                                <select>
+                                  <option selected>Hogar</option>
+                                  <option>Salud</option>
+                                  <option>Deporte</option>
+                                  <option>Tecnología</option>
+                                  <option>Accesorios</option>
+                                  <option>Ropa</option>
+                                  <option>Mantenimiento</option>
+                                </select>
+                            </label>
+                            <div class="row">
+                                <div class="column">
+                                 
+                                    <label>Tipo de producto</label>
+                                    <input id="checkbox1" type="checkbox"><label for="checkbox1">Nuevo</label>
+                                    <input id="checkbox2" type="checkbox"><label for="checkbox2">Usado</label>
+                                  
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="column">
+                                 
+                                    <label>Tipo de precio</label>
+                                    <input id="radio1" type="radio"><label for="checkbox1">Pleno</label>
+                                    <input id="radio2" type="radio"><label for="checkbox2">En oferta</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="column text-center">
+                                  <label>¿Buscar productos agotados?</label>
+                                   
+                                    <div class="switch">
+                                       
+                                        <input class="switch-input" id="ejSwitch" type="checkbox" name="ejSwitch">
+                                          <label class="switch-paddle" for="ejSwitch">
+                                           
+                                            <span class="switch-active" aria-hidden="true">Si</span>
+                                            <span class="switch-inactive" aria-hidden="true">No</span>
+                                          </label>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                               
+                                <class class="column text-center">
+                                   <hr>
+                                    <button type="submit" name="enviar" class="button">Buscar <i class="step fi-magnifying-glass"></i></button>
+                                </class>
+                            </div>
+                       </div>
+                   </div>
+               </form>
            </div>
        </div>
        
